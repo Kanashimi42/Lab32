@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 15px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+div {
+    padding: 20px;
+    background-color: #ddb100;
+}
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+thead {
+    text-transform: uppercase;
+    text-align: left;
+    background-color: #000;
+}
+thead th {
+    padding: 5px 60px;
+    color: #fff;
+}
+tbody {
+    text-transform: capitalize;
+}
+tbody tr:nth-child(even) {
+    background-color: #F5D453;
+}
+tbody tr:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #000;
+}
+tbody td {
+    padding: 20px 60px;
+}
